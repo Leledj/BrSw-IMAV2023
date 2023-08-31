@@ -1,0 +1,112 @@
+[0.071s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/build/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples
+[0.388s] -- The C compiler identification is GNU 11.4.0
+[0.689s] -- The CXX compiler identification is GNU 11.4.0
+[0.724s] -- Detecting C compiler ABI info
+[1.168s] -- Detecting C compiler ABI info - done
+[1.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.212s] -- Detecting C compile features
+[1.214s] -- Detecting C compile features - done
+[1.221s] -- Detecting CXX compiler ABI info
+[1.699s] -- Detecting CXX compiler ABI info - done
+[1.729s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.730s] -- Detecting CXX compile features
+[1.735s] -- Detecting CXX compile features - done
+[1.744s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.638s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.941s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.679s] -- Configuring done
+[3.704s] -- Generating done
+[3.706s] -- Build files have been written to: /home/lucasgewehr/ros2_ws/src/build/crazyflie_examples
+[3.736s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/build/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples
+[3.737s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/build/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/src/build/crazyflie_examples -- -j4 -l4
+[4.030s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[4.180s] Built target ament_cmake_python_symlink_crazyflie_examples
+[5.251s] running egg_info
+[5.265s] creating crazyflie_examples.egg-info
+[5.265s] writing crazyflie_examples.egg-info/PKG-INFO
+[5.266s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[5.266s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[5.266s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[5.267s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[5.272s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[5.273s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[5.432s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[6.273s] running install_scripts
+[6.277s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.277s]   warnings.warn(
+[6.324s] running egg_info
+[6.326s] writing crazyflie_examples.egg-info/PKG-INFO
+[6.327s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[6.327s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[6.327s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[6.331s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[6.333s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[6.335s] Installing cmd_full_state script to scripts
+[6.336s] Installing figure8 script to scripts
+[6.336s] Installing hello_world script to scripts
+[6.336s] Installing multi_trajectory script to scripts
+[6.336s] Installing nice_hover script to scripts
+[6.337s] Installing set_param script to scripts
+[6.439s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[6.478s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/build/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/src/build/crazyflie_examples -- -j4 -l4
+[6.695s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/build/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/src/build/crazyflie_examples
+[6.709s] -- Install configuration: ""
+[6.711s] -- Execute custom install script
+[6.712s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[6.751s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[6.780s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/PKG-INFO
+[6.814s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/SOURCES.txt
+[6.828s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/dependency_links.txt
+[6.843s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/entry_points.txt
+[6.858s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples-2.0.0-py3.10.egg-info/top_level.txt
+[6.873s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[6.887s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[6.902s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[6.917s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[6.932s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[6.947s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[6.963s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py
+[6.977s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py
+[6.992s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/figure8.csv
+[7.006s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[7.021s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[7.035s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py
+[7.049s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py
+[7.063s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py
+[7.078s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py
+[7.092s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py
+[7.106s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[7.122s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[7.136s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[7.151s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[7.165s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[7.180s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[7.195s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[7.210s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[7.224s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[7.239s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[7.253s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[7.267s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[7.282s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[7.298s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[7.313s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[7.328s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[7.342s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[7.357s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[7.372s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[7.387s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[7.404s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[7.422s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[7.438s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[7.455s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[7.569s] Listing '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples'...
+[7.570s] Compiling '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/__init__.py'...
+[7.570s] Compiling '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/cmd_full_state.py'...
+[7.570s] Listing '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data'...
+[7.571s] Listing '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/data/multi_trajectory'...
+[7.571s] Compiling '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/figure8.py'...
+[7.571s] Compiling '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/hello_world.py'...
+[7.571s] Compiling '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/multi_trajectory.py'...
+[7.571s] Compiling '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/nice_hover.py'...
+[7.571s] Compiling '/home/lucasgewehr/ros2_ws/src/install/crazyflie_examples/local/lib/python3.10/dist-packages/crazyflie_examples/set_param.py'...
+[7.590s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/build/crazyflie_py:/home/lucasgewehr/ros2_ws/src/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/src/build/crazyflie_examples

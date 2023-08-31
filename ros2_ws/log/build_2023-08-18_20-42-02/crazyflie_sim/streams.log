@@ -1,0 +1,115 @@
+[1.635s] Invoking command in '/home/lucasgewehr/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/install/crazyflie_sim
+[1.992s] -- The C compiler identification is GNU 11.4.0
+[2.600s] -- The CXX compiler identification is GNU 11.4.0
+[2.694s] -- Detecting C compiler ABI info
+[3.261s] -- Detecting C compiler ABI info - done
+[3.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.325s] -- Detecting C compile features
+[3.326s] -- Detecting C compile features - done
+[3.398s] -- Detecting CXX compiler ABI info
+[3.998s] -- Detecting CXX compiler ABI info - done
+[4.070s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.070s] -- Detecting CXX compile features
+[4.074s] -- Detecting CXX compile features - done
+[4.106s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.657s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.824s] -- Configuring done
+[7.837s] -- Generating done
+[7.853s] -- Build files have been written to: /home/lucasgewehr/ros2_ws/build/crazyflie_sim
+[7.879s] Invoked command in '/home/lucasgewehr/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/install/crazyflie_sim
+[7.880s] Invoking command in '/home/lucasgewehr/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[8.254s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[8.513s] Built target ament_cmake_python_symlink_crazyflie_sim
+[10.448s] running egg_info
+[10.456s] creating crazyflie_sim.egg-info
+[10.456s] writing crazyflie_sim.egg-info/PKG-INFO
+[10.467s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[10.468s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[10.468s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[10.468s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[10.468s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[10.478s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[10.659s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[13.840s] running install_scripts
+[13.854s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.854s]   warnings.warn(
+[14.007s] running egg_info
+[14.021s] writing crazyflie_sim.egg-info/PKG-INFO
+[14.023s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[14.024s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[14.025s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[14.036s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[14.039s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[14.046s] Installing crazyflie_server script to scripts
+[14.354s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[14.483s] Invoked command in '/home/lucasgewehr/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[14.905s] Invoking command in '/home/lucasgewehr/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/build/crazyflie_sim
+[14.950s] -- Install configuration: ""
+[14.951s] -- Execute custom install script
+[14.952s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[15.000s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[15.075s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/PKG-INFO
+[15.185s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/SOURCES.txt
+[15.281s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/dependency_links.txt
+[15.381s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/entry_points.txt
+[15.454s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim-2.0.0-py3.10.egg-info/top_level.txt
+[15.541s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[15.665s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py
+[15.795s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py
+[15.869s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py
+[15.964s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py
+[16.077s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py
+[16.169s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py
+[16.253s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/README.md
+[16.348s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py
+[16.430s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/README.md
+[16.532s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[16.660s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[16.768s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[16.799s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[16.879s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[16.982s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/env.jpg
+[17.089s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[17.200s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[17.324s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[17.391s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[17.462s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[17.541s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[17.617s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[17.681s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model/cf.obj
+[17.740s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py
+[17.814s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py
+[17.896s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py
+[17.981s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[18.068s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[18.117s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[18.185s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[18.274s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[18.309s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[18.384s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[18.492s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[18.582s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[18.653s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[18.706s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[18.738s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[18.773s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[18.799s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[18.835s] -- Symlinking: /home/lucasgewehr/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[19.099s] Listing '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim'...
+[19.100s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/__init__.py'...
+[19.100s] Listing '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend'...
+[19.100s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/none.py'...
+[19.100s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/backend/np.py'...
+[19.100s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_server.py'...
+[19.101s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/crazyflie_sil.py'...
+[19.101s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/sim_data_types.py'...
+[19.101s] Listing '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization'...
+[19.101s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/blender.py'...
+[19.101s] Listing '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data'...
+[19.102s] Listing '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/env'...
+[19.102s] Listing '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/data/model'...
+[19.102s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/pdf.py'...
+[19.102s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/record_states.py'...
+[19.102s] Compiling '/home/lucasgewehr/ros2_ws/install/crazyflie_sim/local/lib/python3.10/dist-packages/crazyflie_sim/visualization/rviz.py'...
+[19.149s] Invoked command in '/home/lucasgewehr/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/build/crazyflie_sim

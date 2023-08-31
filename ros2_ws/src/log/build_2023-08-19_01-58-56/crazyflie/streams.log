@@ -1,0 +1,139 @@
+[1.042s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/src/install/crazyflie
+[1.351s] -- The C compiler identification is GNU 11.4.0
+[1.640s] -- The CXX compiler identification is GNU 11.4.0
+[1.665s] -- Detecting C compiler ABI info
+[2.024s] -- Detecting C compiler ABI info - done
+[2.052s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.067s] -- Detecting C compile features
+[2.068s] -- Detecting C compile features - done
+[2.084s] -- Detecting CXX compiler ABI info
+[2.384s] -- Detecting CXX compiler ABI info - done
+[2.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.419s] -- Detecting CXX compile features
+[2.420s] -- Detecting CXX compile features - done
+[2.424s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.297s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.509s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.633s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[3.817s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.842s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.872s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.042s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.374s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.380s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.907s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.030s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.274s] -- Looking for pthread.h
+[5.688s] -- Looking for pthread.h - found
+[5.689s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.120s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.122s] -- Found Threads: TRUE  
+[6.889s] -- Found tf2_ros: 0.25.3 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.013s] -- Found rclpy: 3.3.9 (/opt/ros/humble/share/rclpy/cmake)
+[9.016s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[9.112s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[9.549s] -- Found crazyflie_interfaces: 2.0.0 (/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake)
+[9.911s] -- Found motion_capture_tracking_interfaces: 1.0.0 (/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[10.299s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[10.324s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[10.660s] -- Configuring done
+[10.796s] -- Generating done
+[10.802s] -- Build files have been written to: /home/lucasgewehr/ros2_ws/src/build/crazyflie
+[10.833s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/src/install/crazyflie
+[10.834s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/src/build/crazyflie -- -j4 -l4
+[10.923s] [  2%] [32mBuilding CXX object CMakeFiles/teleop.dir/src/teleop.cpp.o[0m
+[34.294s] [  5%] [32m[1mLinking CXX executable teleop[0m
+[36.192s] [  5%] Built target teleop
+[36.218s] [ 11%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Connection.cpp.o[0m
+[36.218s] [ 11%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBManager.cpp.o[0m
+[37.233s] [ 13%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Crazyradio.cpp.o[0m
+[37.803s] [ 16%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/USBDevice.cpp.o[0m
+[37.818s] [ 19%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyradioThread.cpp.o[0m
+[38.211s] [ 22%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSB.cpp.o[0m
+[38.547s] [ 25%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/CrazyflieUSBThread.cpp.o[0m
+[39.038s] [ 27%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/crazyflie-link-cpp/CMakeFiles/crazyflieLinkCpp.dir/src/Version.cpp.o[0m
+[41.070s] [ 30%] [32m[1mLinking CXX static library libcrazyflieLinkCpp.a[0m
+[41.178s] [ 30%] Built target crazyflieLinkCpp
+[41.216s] [ 33%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o[0m
+[41.218s] [ 36%] [32mBuilding CXX object deps/crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o[0m
+[44.623s] [ 38%] [32m[1mLinking CXX static library libcrazyflie_cpp.a[0m
+[44.697s] [ 38%] Built target crazyflie_cpp
+[44.721s] [ 41%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o[0m
+[44.728s] [ 44%] [32mBuilding CXX object CMakeFiles/crazyflie_server.dir/src/crazyflie_server.cpp.o[0m
+[45.747s] [ 47%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o[0m
+[46.839s] [ 50%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o[0m
+[48.095s] [ 52%] [32m[1mLinking CXX executable scan[0m
+[48.843s] [ 52%] Built target scan
+[48.964s] [ 55%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o[0m
+[49.894s] [ 58%] [32m[1mLinking CXX executable listLogVariables[0m
+[50.644s] [ 58%] Built target listLogVariables
+[50.764s] [ 61%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o[0m
+[51.163s] [ 63%] [32m[1mLinking CXX executable listParams[0m
+[51.939s] [ 63%] Built target listParams
+[52.056s] [ 66%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o[0m
+[53.055s] [ 69%] [32m[1mLinking CXX executable listMemories[0m
+[53.767s] [ 69%] Built target listMemories
+[53.883s] [ 72%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o[0m
+[55.071s] [ 75%] [32m[1mLinking CXX executable reboot[0m
+[55.919s] [ 75%] Built target reboot
+[56.058s] [ 77%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o[0m
+[56.811s] [ 80%] [32m[1mLinking CXX executable battery[0m
+[57.564s] [ 80%] Built target battery
+[57.676s] [ 83%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o[0m
+[57.904s] [ 86%] [32m[1mLinking CXX executable version[0m
+[58.648s] [ 86%] Built target version
+[58.788s] [ 88%] [32mBuilding CXX object deps/crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o[0m
+[60.034s] [ 91%] [32m[1mLinking CXX executable console[0m
+[60.852s] [ 91%] Built target console
+[62.796s] [ 94%] [32m[1mLinking CXX executable log[0m
+[63.430s] [ 97%] [32m[1mLinking CXX executable setParam[0m
+[63.446s] [ 97%] Built target log
+[63.937s] [ 97%] Built target setParam
+[89.230s] [100%] [32m[1mLinking CXX executable crazyflie_server[0m
+[92.244s] [100%] Built target crazyflie_server
+[92.256s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/src/build/crazyflie -- -j4 -l4
+[92.295s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/src/build/crazyflie
+[92.303s] -- Install configuration: ""
+[92.303s] -- Execute custom install script
+[92.304s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/scan
+[92.313s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/listParams
+[92.322s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/listLogVariables
+[92.331s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/listMemories
+[92.340s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/reboot
+[92.349s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/battery
+[92.358s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/version
+[92.367s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/console
+[92.378s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/log
+[92.387s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/setParam
+[92.396s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/teleop
+[92.405s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/crazyflie_server
+[92.415s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[92.424s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/chooser.py
+[92.433s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/vel_mux.py
+[92.442s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/lib/crazyflie/cfmult.py
+[92.451s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//launch/launch.py
+[92.460s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[92.470s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[92.481s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//config/config.rviz
+[92.490s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[92.499s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[92.508s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//config/server.yaml
+[92.517s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie//config/teleop.yaml
+[92.526s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[92.535s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[92.544s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[92.553s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[92.562s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/environment/path.sh
+[92.571s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/environment/path.dsv
+[92.581s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.bash
+[92.591s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.sh
+[92.600s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.zsh
+[92.611s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/local_setup.dsv
+[92.620s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/package.dsv
+[92.629s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[92.638s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[92.647s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[92.656s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/crazyflie/share/crazyflie/package.xml
+[92.670s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/home/lucasgewehr/ros2_ws/src/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/src/build/crazyflie

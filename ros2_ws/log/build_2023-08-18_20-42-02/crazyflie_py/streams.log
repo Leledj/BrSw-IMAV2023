@@ -1,0 +1,27 @@
+[5.578s] Invoking command in '/home/lucasgewehr/ros2_ws/build/crazyflie_py': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/build/crazyflie_py/prefix_override:/home/lucasgewehr/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lucasgewehr/ros2_ws/build/crazyflie_py/build --no-deps install_data
+[8.200s] running develop
+[8.204s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.204s]   warnings.warn(
+[8.213s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.214s]   warnings.warn(
+[10.112s] running egg_info
+[10.113s] creating crazyflie_py.egg-info
+[10.114s] writing crazyflie_py.egg-info/PKG-INFO
+[10.115s] writing dependency_links to crazyflie_py.egg-info/dependency_links.txt
+[10.116s] writing entry points to crazyflie_py.egg-info/entry_points.txt
+[10.119s] writing requirements to crazyflie_py.egg-info/requires.txt
+[10.125s] writing top-level names to crazyflie_py.egg-info/top_level.txt
+[10.139s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[10.161s] reading manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[10.187s] writing manifest file 'crazyflie_py.egg-info/SOURCES.txt'
+[10.204s] running build_ext
+[10.205s] Creating /home/lucasgewehr/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages/crazyflie-py.egg-link (link to .)
+[10.215s] 
+[10.218s] Installed /home/lucasgewehr/ros2_ws/build/crazyflie_py
+[10.226s] running install_data
+[10.228s] creating /home/lucasgewehr/ros2_ws/install/crazyflie_py/share/ament_index
+[10.229s] creating /home/lucasgewehr/ros2_ws/install/crazyflie_py/share/ament_index/resource_index
+[10.230s] creating /home/lucasgewehr/ros2_ws/install/crazyflie_py/share/ament_index/resource_index/packages
+[10.232s] copying resource/crazyflie_py -> /home/lucasgewehr/ros2_ws/install/crazyflie_py/share/ament_index/resource_index/packages
+[10.233s] copying package.xml -> /home/lucasgewehr/ros2_ws/install/crazyflie_py/share/crazyflie_py
+[10.542s] Invoked command in '/home/lucasgewehr/ros2_ws/build/crazyflie_py' returned '0': AMENT_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces LD_LIBRARY_PATH=/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucasgewehr/ros2_ws/build/crazyflie_py/prefix_override:/home/lucasgewehr/ros2_ws/install/crazyflie_py/lib/python3.10/site-packages:/home/lucasgewehr/ros2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lucasgewehr/ros2_ws/build/crazyflie_py/build --no-deps install_data

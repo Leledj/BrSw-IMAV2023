@@ -1,0 +1,23 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/FullState.msg",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogDataGeneric.msg",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Hover.msg",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogBlock.msg",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Position.msg",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.msg",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:msg/VelocityWorld.msg",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/GoTo.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Land.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/NotifySetpointsStop.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/SetGroupMask.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/StartTrajectory.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Stop.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Takeoff.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UpdateParams.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UploadTrajectory.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/RemoveLogging.srv",
+    "/home/lucasgewehr/ros2_ws/src/crazyswarm2/crazyflie_interfaces:srv/AddLogging.srv"
+  ]
+}

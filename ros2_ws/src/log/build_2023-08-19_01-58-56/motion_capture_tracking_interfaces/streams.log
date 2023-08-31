@@ -1,0 +1,230 @@
+[0.040s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces
+[0.193s] -- The C compiler identification is GNU 11.4.0
+[0.353s] -- The CXX compiler identification is GNU 11.4.0
+[0.364s] -- Detecting C compiler ABI info
+[0.558s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.590s] -- Detecting CXX compiler ABI info
+[0.800s] -- Detecting CXX compiler ABI info - done
+[0.822s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.822s] -- Detecting CXX compile features
+[0.823s] -- Detecting CXX compile features - done
+[0.835s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.313s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.528s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.603s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.678s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.698s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.724s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.856s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.149s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.060s] -- Found ament_cmake_cppcheck: 0.12.7 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.065s] -- Found ament_cmake_cpplint: 0.12.7 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.069s] -- Found ament_cmake_uncrustify: 0.12.7 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.074s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.958s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.961s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.025s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.025s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.025s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.025s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.083s] -- Found PythonExtra: .so  
+[5.276s] -- Found ament_cmake_flake8: 0.12.7 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[5.282s] -- Found ament_cmake_pep257: 0.12.7 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[5.323s] -- Configuring done
+[5.441s] -- Generating done
+[5.449s] -- Build files have been written to: /home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces
+[5.471s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucasgewehr/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces
+[5.474s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces -- -j4 -l4
+[5.582s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.624s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.637s] [  5%] Built target ament_cmake_python_symlink_motion_capture_tracking_interfaces
+[7.043s] running egg_info
+[7.063s] creating motion_capture_tracking_interfaces.egg-info
+[7.064s] writing motion_capture_tracking_interfaces.egg-info/PKG-INFO
+[7.064s] writing dependency_links to motion_capture_tracking_interfaces.egg-info/dependency_links.txt
+[7.064s] writing top-level names to motion_capture_tracking_interfaces.egg-info/top_level.txt
+[7.065s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[7.087s] reading manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[7.093s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[7.226s] [  5%] Built target ament_cmake_python_build_motion_capture_tracking_interfaces_egg
+[7.472s] [  5%] Built target motion_capture_tracking_interfaces__cpp
+[7.605s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.605s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.608s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.568s] [ 15%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.c.o[0m
+[8.989s] [ 17%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.c.o[0m
+[9.275s] [ 20%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[9.331s] [ 23%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_generator_c.so[0m
+[9.672s] [ 23%] Built target motion_capture_tracking_interfaces__rosidl_generator_c
+[9.718s] [ 25%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[10.047s] [ 28%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose__type_support.cpp.o[0m
+[10.100s] [ 30%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.cpp.o[0m
+[10.906s] [ 33%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.cpp.o[0m
+[11.724s] [ 35%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so[0m
+[11.875s] [ 35%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_cpp
+[11.893s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.118s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.164s] [ 43%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose_array__type_support.cpp.o[0m
+[12.466s] [ 46%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.824s] [ 46%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp
+[12.854s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.951s] [ 51%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support_c.cpp.o[0m
+[13.260s] [ 53%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.c.o[0m
+[13.334s] [ 56%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.443s] [ 58%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.c.o[0m
+[13.532s] [ 61%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[13.567s] [ 61%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.579s] [ 64%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.615s] [ 66%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[13.616s] [ 69%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support_c.cpp.o[0m
+[13.691s] [ 71%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so[0m
+[13.708s] [ 71%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c
+[13.776s] [ 71%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c
+[14.357s] [ 74%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[14.536s] [ 74%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c
+[14.565s] [ 74%] Built target motion_capture_tracking_interfaces
+[14.599s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.480s] [ 76%] Built target motion_capture_tracking_interfaces__py
+[15.510s] [ 79%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_s.c.o[0m
+[15.527s] [ 82%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c.o[0m
+[15.905s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/libmotion_capture_tracking_interfaces__rosidl_generator_py.so[0m
+[15.984s] [ 84%] Built target motion_capture_tracking_interfaces__rosidl_generator_py
+[16.041s] [ 87%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[16.088s] [ 89%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.088s] [ 92%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.328s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.443s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.537s] [ 97%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[16.539s] [100%] [32m[1mLinking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[16.569s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext
+[16.654s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.686s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces -- -j4 -l4
+[17.113s] Invoking command in '/home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces
+[17.133s] -- Install configuration: ""
+[17.134s] -- Execute custom install script
+[17.135s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rosidl_interfaces/motion_capture_tracking_interfaces
+[17.168s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.h
+[17.200s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.h
+[17.233s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.h
+[17.258s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h
+[17.291s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.h
+[17.317s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.h
+[17.341s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.h
+[17.369s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.h
+[17.394s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_c__visibility_control.h
+[17.435s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.sh
+[17.469s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.dsv
+[17.506s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_c.h
+[17.541s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_c.h
+[17.569s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.587s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__builder.hpp
+[17.622s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.hpp
+[17.666s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__traits.hpp
+[17.704s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__builder.hpp
+[17.727s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.hpp
+[17.756s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__traits.hpp
+[17.770s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.hpp
+[17.783s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.hpp
+[17.796s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[17.810s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[17.835s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.850s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_c.h
+[17.864s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_c.h
+[17.880s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.906s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_cpp.hpp
+[17.922s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[17.938s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.sh
+[17.952s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.dsv
+[17.968s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/PKG-INFO
+[17.982s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/SOURCES.txt
+[17.997s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/dependency_links.txt
+[18.022s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.0-py3.10.egg-info/top_level.txt
+[18.038s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py
+[18.065s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c
+[18.080s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.094s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[18.107s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[18.133s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.159s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.176s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.205s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/__init__.py
+[18.233s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose.py
+[18.254s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py
+[18.283s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c
+[18.307s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_s.c
+[18.333s] -- Up-to-date symlink: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.334s] -- Up-to-date symlink: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.335s] -- Up-to-date symlink: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.336s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.idl
+[18.361s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl
+[18.386s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.msg
+[18.412s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.msg
+[18.442s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking_interfaces
+[18.469s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking_interfaces
+[18.496s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.sh
+[18.512s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.dsv
+[18.539s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.sh
+[18.564s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.dsv
+[18.597s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.bash
+[18.630s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.sh
+[18.666s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.zsh
+[18.703s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.dsv
+[18.743s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv
+[18.766s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/packages/motion_capture_tracking_interfaces
+[18.780s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake-extras.cmake
+[18.794s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.808s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.824s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[18.840s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[18.854s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.868s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.882s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig.cmake
+[18.897s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig-version.cmake
+[18.911s] -- Symlinking: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.xml
+[18.933s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so
+[18.934s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so" to ""
+[18.934s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[18.936s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[18.936s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[18.938s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.938s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so
+[18.940s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[18.940s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so
+[18.941s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so" to ""
+[18.942s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[18.943s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[18.944s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so
+[18.945s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.014s] Listing '/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces'...
+[19.015s] Compiling '/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py'...
+[19.015s] Listing '/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg'...
+[19.015s] Compiling '/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/__init__.py'...
+[19.015s] Compiling '/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose.py'...
+[19.015s] Compiling '/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py'...
+[19.035s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[19.036s] -- Set runtime path of "/home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so" to ""
+[19.038s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport.cmake
+[19.038s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.039s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[19.040s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[19.041s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cppExport.cmake
+[19.042s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[19.043s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[19.044s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.045s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.045s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport.cmake
+[19.045s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.046s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.046s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.046s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport.cmake
+[19.046s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.047s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport.cmake
+[19.047s] -- Installing: /home/lucasgewehr/ros2_ws/src/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[19.052s] Invoked command in '/home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucasgewehr/ros2_ws/src/build/motion_capture_tracking_interfaces

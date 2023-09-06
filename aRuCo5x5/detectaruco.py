@@ -18,7 +18,7 @@ def detect_and_get_aruco_id(image_path):
     detected_ids = []
     
     # Se algum marcador for detectado, adicione os IDs à lista detected_ids
-    # Case some marker is detected, add the IDs to "detected-id" array
+    # Case any markers are detected, add the IDs to "detected-id" list
     if ids is not None:
         for i in ids:
             detected_ids.append(i[0])

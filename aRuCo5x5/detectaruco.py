@@ -7,7 +7,7 @@ def detect_and_get_aruco_id(image_path):
     frame = cv2.imread(image_path)
 
     # Configurar o dicionário ArUco que você está usando (neste exemplo, usamos o 5x5)
-    # Configuring the ArUco dictinary you are using (in this case, we are using the 5x5 version)
+    # Configuring the ArUco dictionary you are using (in this case, we are using the 5x5 version)
     aruco_dict = aruco.Dictionary_get(aruco.DICT_5X5_250)
     parameters = aruco.DetectorParameters_create()
 

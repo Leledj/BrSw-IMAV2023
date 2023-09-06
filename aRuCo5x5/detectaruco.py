@@ -12,7 +12,7 @@ def detect_and_get_aruco_id(image_path):
     parameters = aruco.DetectorParameters_create()
 
     # Detectar os marcadores na imagem
-    # Detecting ther markers on the image
+    # Detecting the markers on the image
     corners, ids, rejectedImgPoints = aruco.detectMarkers(frame, aruco_dict, parameters=parameters)
 
     detected_ids = []
